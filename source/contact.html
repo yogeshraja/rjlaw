@@ -1,8 +1,8 @@
 @@include('header.htm')
 @@include('blocks/navigation.htm',{"contact":"active"})
 @@include('blocks/page-title.htm', {
-"title": "Drop Us A Note",
-"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, quibusdam."
+"title": "Reach out to us!",
+"description": "We also offer free legal aid, please refer to the aid section"
 })
 <!-- contact form start -->
 <section class="contact-form">
@@ -29,22 +29,35 @@
           <button class="btn btn-default" type="submit">Send Message</button>
         </div>
       </div>
-      <div class="error" id="error">Sorry Msg dose not sent</div>
-      <div class="success" id="success">Message Sent</div>
+      <div class="error" id="error">Sorry the message is not sent please contact us through phone</div>
+      <div class="success" id="success">We have received your message</div>
     </form>
     <div class="contact-box row">
       <div class="col-md-6 col-sm-12">
         <div class="block">
-          <h2>Stop By For A visit</h2>
+          <h2>We operate from</h2>
           <ul class="address-block">
             <li>
-              <i class="ion-ios-location-outline"></i>North Main Street,Brooklyn Australia
+              <div class="address">
+                <i class="ion-ios-location-outline"></i>
+                  <address>
+                    RJ LAW Affiliate,<br>
+                    108/1 C2, Rangaswamy Avenue,<br>
+                    Lakshmi Towers -"First Floor",<br>
+                    K.G Pudur, Mangalam Road, <br>
+                    Tirupur - 641 687. <br>
+                    Tamil Nadu <br>
+                  </address>
+              </div>
             </li>
             <li>
-              <i class="ion-ios-email-outline"></i>Email: contact@mail.com
+              <i class="ion-ios-email-outline"></i>Email: <a href="mailto:rj@rjlaw.in">rj@rjlaw.in</a>
             </li>
             <li>
-              <i class="ion-ios-telephone-outline"></i>Phone:+88 01672 506 744
+              <i class="ion-ios-telephone-outline"></i>Phone: <a href="tel:+919894788958">98947 88958</a>
+            </li>
+            <li>
+              <i class="ion-ios-telephone-outline"></i>Office: <a href="tel:+919489367770">94893 67770</a>
             </li>
           </ul>
           <ul class="social-icons">
@@ -68,12 +81,14 @@
             </li>
           </ul>
         </div>
-      </div>
+      </div> 
       <div class="col-md-6 mt-5 mt-md-0">
         <div class="block">
           <div class="google-map">
-            <div class="map" id="map_canvas" data-latitude="51.5223477" data-longitude="-0.1622023"
-              data-marker="images/marker.png"></div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959702.4330620766!2d75.95644466312096!3d14.259234157162266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba900c265856417%3A0x3885f1a8d81ddfa5!2sRJ%20LAW%20Affiliate!5e0!3m2!1sen!2sin!4v1657369343340!5m2!1sen!2sin"
+              width="550" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </div>
