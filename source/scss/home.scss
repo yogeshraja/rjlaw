@@ -131,7 +131,7 @@
 
 
 #mouse-scroll {
-  style: block;
+  display: block;
 }
 
 #mouse-scroll {
@@ -139,6 +139,7 @@
   margin: auto;
   left: 50%;
   -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
   z-index: 9999;
   bottom: 50px;
 
@@ -179,10 +180,10 @@
 
 #mouse-scroll .mouse-in {
   -webkit-animation: animated-mouse 1.2s ease infinite;
-  moz-animation: mouse-animated 1.2s ease infinite;
+  animation: animated-mouse 1.2s ease infinite;
 }
-
-@-webkit-keyframes animated-mouse {
+  
+@keyframes animated-mouse {
   0% {
     opacity: 1;
     -webkit-transform: translateY(0);
